@@ -1,0 +1,335 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header-1 {
+    height: 35px;
+    background-color: #efd7e5;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.body_image {
+    height: 800px;
+    width: 100%;
+    background-image: url(project\ 3\ cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.semi-hed1 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+
+.title {
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#anchor {
+    color: #918d8d;
+    text-decoration: none;
+
+} 
+
+#anchor:hover {
+    background-color: #efd7e5;
+}
+
+.logo {
+    height: 60px;
+    width: 400px;
+    text-align: center;
+}
+
+#brand-name {
+    color: #131212;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 40px 0px 40px;
+
+}
+
+#brand-name2 {
+    color: #918d8d;
+    font-size: 10px;
+}
+
+
+
+.head-icon {
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #918d8d;
+
+}
+
+.semi-hed1:hover {
+    background-color: #faf5f8;
+}
+
+.content {
+    height: 500px;
+    width: 100%;
+    background-color: #efd7e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.c1, .c2, .c3 {
+    height: 450px;
+    width: 400px;
+    border-radius: 10%;
+    display: block;
+}
+
+.c1 {
+    background-image: url(lipline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c3 {
+    background-image: url(lipstick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c2 {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#lip-head {
+    color: #cc83ad;
+    margin: 70px 0 30px 0;
+}
+
+#lip-button {
+    height: 45px;
+    width: 100px;
+    border: 0.5px solid black;
+    border-radius: 10%;
+    background-color: transparent;
+}
+
+#lip-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#lip-p {
+    margin: 20px 40px 10px 40px;
+}
+
+.blush {
+    height: 600px;
+    width: 100%;
+    background-image: url(blush.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.c-area {
+    text-align: center;
+    background-color: #e7c4d0;
+    height: 450px;
+    width: 400px;
+    border-radius: 10%;
+    display: block;
+    margin: 50px 0 0 50px;
+}
+
+.content3 {
+    height: 500px;
+    width: 100%;
+    background-color: #e7c4d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kylie-lips {
+    height: 450px;
+    width: 600px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: block;
+    background-image: url(kylie\ lips.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.write {
+    height: 450px;
+    width: 600px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: block;
+    align-items: center;
+    background-color: white;
+}
+
+.write h1 {
+    color: #ce76a9;
+    /*margin: 70px 0 30px 50px;
+    padding: 0 0 0 100px;*/
+    text-align: center;
+    display: block;
+}
+
+.write p {
+    margin: 0px 40px 0px 40px;
+}
+
+.main-p {
+    display: block;
+    text-align: center;
+}
+
+.content4 {
+    height: 350px;
+    width: 100%;
+    padding: 40px 0 80px 0;
+    background-color: #e6e0e0; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.class1, .class2, .class3, .class4 {
+    height: 300px;
+    width: 290px;
+    background-color: #e4b8d1;
+    display: block;
+    border-radius: 5%;
+    margin-top: 25px;
+}
+
+.dot1, .dot2 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #faf5f8;
+    display: block;
+    margin-top: 175px;
+    font-size: 30px;
+}
+
+.section-1a, .section-1b, .section-1c, .section-1d {
+    height: 230px;
+    width: 290px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1a {
+    background-image: url(pic1.jpg);
+}
+
+.section-1b {
+    background-image: url(pic2.jpg);
+}
+
+.section-1c {
+    background-image: url(pic3.jpg);
+}
+
+.section-1d {
+    background-image: url(pic4.jpg);
+}
+
+.section-2 {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.section-1a:hover, .section-1b:hover, .section-1c:hover, .section-1d:hover {
+    height: 200px;
+    
+}
+
+.product-rating h4 {
+    display: block;
+    margin-left: 10px;
+}
+
+.product-rating p {
+    display: inline;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.content-5 {
+    background-color: #e6e0e0;
+    height: 700px;
+    width: 100%;
+}
+
+.brand-pic {
+    background-color: #e6e0e0;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand-1, .brand-2, .brand-3 {
+    height: 450px;
+    width: 400px;
+    display: block;
+    background-color: #e7c4d0;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.shop {
+    text-align: center;
+    font-size: 30px;
+}
+
+#brand-head {
+    color: #cc83ad;
+}
+
+.brand-1 {
+    background-image: url(blush-1063136_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.brand-2 {
+    background-image: url(nail-paint.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.brand-3 {
+    background-image: url(pallet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+ 
